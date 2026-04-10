@@ -14,7 +14,6 @@ const ProductUI = () => {
                 />
             </div>
 
-            {/* Content */}
             <div className="p-5 space-y-2">
 
                 <h2 className="text-xl font-bold text-gray-800 dark:text-white">
@@ -25,7 +24,6 @@ const ProductUI = () => {
                     Electronics
                 </p>
 
-                {/* Price + Rating */}
                 <div className="flex justify-between items-center mt-3">
 
                     <span className="text-lg font-semibold text-green-600">
@@ -38,12 +36,10 @@ const ProductUI = () => {
 
                 </div>
 
-                {/* Description */}
                 <p className="text-sm text-gray-600 dark:text-gray-300">
                     High quality wireless headphones with noise cancellation and long battery life.
                 </p>
 
-                {/* Button */}
                 <button className="mt-4 w-full bg-blue-600 text-white py-2 rounded-xl hover:bg-blue-700 transition">
                     Buy Now
                 </button>
