@@ -6,7 +6,7 @@ import React from 'react';
 const Navbar = () => {
     const p = usePathname()
     return (
-        <div className='flex justify-between items-center px-10 py-4 bg-gray-800'>
+        <div className='flex flex-col lg:flex-row gap-5 justify-between items-center px-10 py-4 bg-gray-800'>
             <h2 className='text-2xl font-bold'>Navber</h2>
             <ul className='flex gap-5'>
                 <Link className={p=== '/'? "btn btn-accent btn-outline" : "btn"} href={'/'}>Home</Link>
